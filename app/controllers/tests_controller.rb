@@ -1,4 +1,8 @@
 class TestsController < ApplicationController
-  def index
+  def scroll
+  end
+  def tab
+  end
+  def skipper
   end
 end

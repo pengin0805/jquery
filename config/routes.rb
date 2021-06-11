@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  root to: 'tests#index'
+  root to: 'tests#scroll'
+  get "tests/humberger" => "tests#humberger"
+  get "tests/tab" => "tests#tab"
+  get "tests/skipper" => "tests#skipper"
 end

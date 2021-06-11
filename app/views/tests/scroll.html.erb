@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jquery</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "style", media: "all" %>  
+  </head>
+  <body>
+<%= link_to "humberger", tests_humberger_path %><br>
+<%= link_to "tab", tests_tab_path %><br>
+<%= link_to "skipper", tests_skipper_path %><br>
+<h1>9章【「トップへ®®戻る」ボタンを作ってみよう】</h1>
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+    <span id="back">
+      <a href="#">
+        <img src="/assets/arrow.png" alt="">
+      </a>
+    </span>
+
+  </body>
+</html>

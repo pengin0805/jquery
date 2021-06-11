@@ -12,3 +12,7 @@ Rails.application.config.assets.paths << Rails.root.join('node_modules')
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
+Rails.application.config.assets.precompile += %w( humberger )
+Rails.application.config.assets.precompile += %w( style )
+Rails.application.config.assets.precompile += %w( tab )
+Rails.application.config.assets.precompile += %w( skipper )
